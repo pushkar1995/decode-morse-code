@@ -49,7 +49,7 @@ def decode_sentence(morse_sentence)
   sentence.chop
 end
 
-morse_code = '.-.. --- ...- .'
+morse_code = ' .-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...'
 
-decoded_word = decode_word(morse_code)
-puts decoded_word
+decoded_sentence = decode_sentence(morse_code)
+puts decoded_sentence
