@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 @morse_code_to_char = {
   '.-' => 'A',
   '-...' => 'B',
