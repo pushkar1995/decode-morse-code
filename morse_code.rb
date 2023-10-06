@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 @morse_code_to_char = {
   '.-' => 'A',
   '-...' => 'B',
@@ -48,3 +50,8 @@ def decode_sentence(morse_sentence)
   end
   sentence.chop
 end
+
+morse_code = '.-.. --- ...- .'
+
+decoded_word = decode_word(morse_code)
+puts decoded_word
